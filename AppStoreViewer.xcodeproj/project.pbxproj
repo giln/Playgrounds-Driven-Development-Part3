@@ -26,7 +26,6 @@
 
 /* Begin PBXFileReference section */
 		A71D083C21ABFED00061A602 /* Blank.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Blank.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		A71D083D21ABFF790061A602 /* AppStoreTopApps.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AppStoreTopApps.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A78E82232177693E007C5FB5 /* AppStoreViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStoreViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78E82262177693E007C5FB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A78E82282177693E007C5FB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,7 +114,6 @@
 		A78E824821776C11007C5FB5 /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
-				A71D083D21ABFF790061A602 /* AppStoreTopApps.playground */,
 				A71D083C21ABFED00061A602 /* Blank.playground */,
 			);
 			path = Playgrounds;
