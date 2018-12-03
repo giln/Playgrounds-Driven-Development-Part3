@@ -26,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		A7000F2021B57B0400C23143 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A7000F2121B5816500C23143 /* AppStoreRessourceTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AppStoreRessourceTest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A71D083C21ABFED00061A602 /* Blank.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Blank.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A78E82232177693E007C5FB5 /* AppStoreViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStoreViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78E82262177693E007C5FB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				A71D083C21ABFED00061A602 /* Blank.playground */,
+				A7000F2121B5816500C23143 /* AppStoreRessourceTest.playground */,
 			);
 			path = Playgrounds;
 			sourceTree = "<group>";
