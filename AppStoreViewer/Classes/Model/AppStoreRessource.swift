@@ -47,8 +47,8 @@ public class AppStoreRessource {
             }
 
             do {
-                _ = try JSONDecoder().decode(ServerResponse.self, from: data)
-                completion([], nil)
+                let serverResponse = try JSONDecoder().decode(ServerResponse.self, from: data)
+                completion(serverResponse.feed.entry, nil)
             } catch DecodingError.keyNotFound(let key, _) {
                 completion([], .decodingKeyNotFound(key: key))
             } catch DecodingError.typeMismatch(_, _) {

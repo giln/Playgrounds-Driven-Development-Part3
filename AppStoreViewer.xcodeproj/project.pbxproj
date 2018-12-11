@@ -18,7 +18,13 @@
 		A7411BAF21C0015900366622 /* MockFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7411BAE21C0015900366622 /* MockFetcher.swift */; };
 		A7411BB121C0024C00366622 /* DataFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7411BB021C0024C00366622 /* DataFetching.swift */; };
 		A7411BB221C0024C00366622 /* DataFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7411BB021C0024C00366622 /* DataFetching.swift */; };
-		A7411BC921C009B300366622 /* NetworkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7411BC821C009B300366622 /* NetworkFetcher.swift */; };
+		A7411BBC21C0068200366622 /* AppStoreViewerFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = A7411BBA21C0068200366622 /* AppStoreViewerFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7411BC021C0074200366622 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7411BA321BFFBBE00366622 /* App.swift */; };
+		A7411BC121C0074200366622 /* App+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7411BA621BFFE1100366622 /* App+Decodable.swift */; };
+		A7411BC221C0074200366622 /* AppStoreRessource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7411BAB21C0005B00366622 /* AppStoreRessource.swift */; };
+		A7411BC321C0074200366622 /* DataFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7411BB021C0024C00366622 /* DataFetching.swift */; };
+		A7411BCB21C00B3200366622 /* NetworkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7411BCA21C00B3200366622 /* NetworkFetcher.swift */; };
+		A7411BCC21C00B3200366622 /* NetworkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7411BCA21C00B3200366622 /* NetworkFetcher.swift */; };
 		A78E82272177693E007C5FB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E82262177693E007C5FB5 /* AppDelegate.swift */; };
 		A78E82292177693E007C5FB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E82282177693E007C5FB5 /* ViewController.swift */; };
 		A78E822E2177693F007C5FB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A78E822D2177693F007C5FB5 /* Assets.xcassets */; };
@@ -47,7 +53,10 @@
 		A7411BAB21C0005B00366622 /* AppStoreRessource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreRessource.swift; sourceTree = "<group>"; };
 		A7411BAE21C0015900366622 /* MockFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFetcher.swift; sourceTree = "<group>"; };
 		A7411BB021C0024C00366622 /* DataFetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetching.swift; sourceTree = "<group>"; };
-		A7411BC821C009B300366622 /* NetworkFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFetcher.swift; sourceTree = "<group>"; };
+		A7411BB821C0068200366622 /* AppStoreViewerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppStoreViewerFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7411BBA21C0068200366622 /* AppStoreViewerFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppStoreViewerFramework.h; sourceTree = "<group>"; };
+		A7411BBB21C0068200366622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7411BCA21C00B3200366622 /* NetworkFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkFetcher.swift; sourceTree = "<group>"; };
 		A78E82232177693E007C5FB5 /* AppStoreViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStoreViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78E82262177693E007C5FB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A78E82282177693E007C5FB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +69,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A7411BB521C0068200366622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A78E82202177693E007C5FB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -80,13 +96,22 @@
 		A7411BA221BFFB7A00366622 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A7411BCA21C00B3200366622 /* NetworkFetcher.swift */,
 				A7411BA321BFFBBE00366622 /* App.swift */,
 				A7411BA621BFFE1100366622 /* App+Decodable.swift */,
 				A7411BAB21C0005B00366622 /* AppStoreRessource.swift */,
 				A7411BB021C0024C00366622 /* DataFetching.swift */,
-				A7411BC821C009B300366622 /* NetworkFetcher.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A7411BB921C0068200366622 /* AppStoreViewerFramework */ = {
+			isa = PBXGroup;
+			children = (
+				A7411BBA21C0068200366622 /* AppStoreViewerFramework.h */,
+				A7411BBB21C0068200366622 /* Info.plist */,
+			);
+			path = AppStoreViewerFramework;
 			sourceTree = "<group>";
 		};
 		A78E821A2177693E007C5FB5 = {
@@ -96,6 +121,7 @@
 				A78E824821776C11007C5FB5 /* Playgrounds */,
 				A78E82252177693E007C5FB5 /* AppStoreViewer */,
 				A78E823A2177693F007C5FB5 /* AppStoreViewerTests */,
+				A7411BB921C0068200366622 /* AppStoreViewerFramework */,
 				A78E82242177693E007C5FB5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,6 +131,7 @@
 			children = (
 				A78E82232177693E007C5FB5 /* AppStoreViewer.app */,
 				A78E82372177693F007C5FB5 /* AppStoreViewerTests.xctest */,
+				A7411BB821C0068200366622 /* AppStoreViewerFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,7 +188,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		A7411BB321C0068200366622 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7411BBC21C0068200366622 /* AppStoreViewerFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		A7411BB721C0068200366622 /* AppStoreViewerFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7411BBD21C0068200366622 /* Build configuration list for PBXNativeTarget "AppStoreViewerFramework" */;
+			buildPhases = (
+				A7411BB321C0068200366622 /* Headers */,
+				A7411BB421C0068200366622 /* Sources */,
+				A7411BB521C0068200366622 /* Frameworks */,
+				A7411BB621C0068200366622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppStoreViewerFramework;
+			productName = AppStoreViewerFramework;
+			productReference = A7411BB821C0068200366622 /* AppStoreViewerFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A78E82222177693E007C5FB5 /* AppStoreViewer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A78E82402177693F007C5FB5 /* Build configuration list for PBXNativeTarget "AppStoreViewer" */;
@@ -207,6 +263,9 @@
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = Viseo;
 				TargetAttributes = {
+					A7411BB721C0068200366622 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					A78E82222177693E007C5FB5 = {
 						CreatedOnToolsVersion = 10.0;
 					};
@@ -231,11 +290,19 @@
 			targets = (
 				A78E82222177693E007C5FB5 /* AppStoreViewer */,
 				A78E82362177693F007C5FB5 /* AppStoreViewerTests */,
+				A7411BB721C0068200366622 /* AppStoreViewerFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A7411BB621C0068200366622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A78E82212177693E007C5FB5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,13 +322,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A7411BB421C0068200366622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7411BC221C0074200366622 /* AppStoreRessource.swift in Sources */,
+				A7411BC021C0074200366622 /* App.swift in Sources */,
+				A7411BCC21C00B3200366622 /* NetworkFetcher.swift in Sources */,
+				A7411BC121C0074200366622 /* App+Decodable.swift in Sources */,
+				A7411BC321C0074200366622 /* DataFetching.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A78E821F2177693E007C5FB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A7411BA421BFFBBE00366622 /* App.swift in Sources */,
 				A7411BAC21C0005B00366622 /* AppStoreRessource.swift in Sources */,
-				A7411BC921C009B300366622 /* NetworkFetcher.swift in Sources */,
+				A7411BCB21C00B3200366622 /* NetworkFetcher.swift in Sources */,
 				A7411BA721BFFE1100366622 /* App+Decodable.swift in Sources */,
 				A78E82292177693E007C5FB5 /* ViewController.swift in Sources */,
 				A78E82272177693E007C5FB5 /* AppDelegate.swift in Sources */,
@@ -306,6 +385,64 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A7411BBE21C0068200366622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C35G5EW7P5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AppStoreViewerFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.viseo.AppStoreViewerFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7411BBF21C0068200366622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C35G5EW7P5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AppStoreViewerFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.viseo.AppStoreViewerFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A78E823E2177693F007C5FB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -505,6 +642,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A7411BBD21C0068200366622 /* Build configuration list for PBXNativeTarget "AppStoreViewerFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7411BBE21C0068200366622 /* Debug */,
+				A7411BBF21C0068200366622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A78E821E2177693E007C5FB5 /* Build configuration list for PBXProject "AppStoreViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
