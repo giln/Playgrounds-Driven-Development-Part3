@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7411BA121BFFA7D00366622 /* AppTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7411BA021BFFA7D00366622 /* AppTest.swift */; };
+		A7411BA421BFFBBE00366622 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7411BA321BFFBBE00366622 /* App.swift */; };
+		A7411BA521BFFC6500366622 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7411BA321BFFBBE00366622 /* App.swift */; };
+		A7411BA721BFFE1100366622 /* App+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7411BA621BFFE1100366622 /* App+Decodable.swift */; };
+		A7411BA821BFFE1100366622 /* App+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7411BA621BFFE1100366622 /* App+Decodable.swift */; };
+		A7411BAA21BFFF0A00366622 /* AppStoreRessourceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7411BA921BFFF0A00366622 /* AppStoreRessourceTest.swift */; };
+		A7411BAC21C0005B00366622 /* AppStoreRessource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7411BAB21C0005B00366622 /* AppStoreRessource.swift */; };
+		A7411BAD21C0005B00366622 /* AppStoreRessource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7411BAB21C0005B00366622 /* AppStoreRessource.swift */; };
+		A7411BAF21C0015900366622 /* MockFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7411BAE21C0015900366622 /* MockFetcher.swift */; };
+		A7411BB121C0024C00366622 /* DataFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7411BB021C0024C00366622 /* DataFetching.swift */; };
+		A7411BB221C0024C00366622 /* DataFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7411BB021C0024C00366622 /* DataFetching.swift */; };
 		A78E82272177693E007C5FB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E82262177693E007C5FB5 /* AppDelegate.swift */; };
 		A78E82292177693E007C5FB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E82282177693E007C5FB5 /* ViewController.swift */; };
 		A78E822E2177693F007C5FB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A78E822D2177693F007C5FB5 /* Assets.xcassets */; };
@@ -28,6 +39,13 @@
 		A7000F2021B57B0400C23143 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A7000F2121B5816500C23143 /* AppStoreRessourceTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AppStoreRessourceTest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A71D083C21ABFED00061A602 /* Blank.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Blank.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A7411BA021BFFA7D00366622 /* AppTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTest.swift; sourceTree = "<group>"; };
+		A7411BA321BFFBBE00366622 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		A7411BA621BFFE1100366622 /* App+Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App+Decodable.swift"; sourceTree = "<group>"; };
+		A7411BA921BFFF0A00366622 /* AppStoreRessourceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreRessourceTest.swift; sourceTree = "<group>"; };
+		A7411BAB21C0005B00366622 /* AppStoreRessource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreRessource.swift; sourceTree = "<group>"; };
+		A7411BAE21C0015900366622 /* MockFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFetcher.swift; sourceTree = "<group>"; };
+		A7411BB021C0024C00366622 /* DataFetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetching.swift; sourceTree = "<group>"; };
 		A78E82232177693E007C5FB5 /* AppStoreViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStoreViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78E82262177693E007C5FB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A78E82282177693E007C5FB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +75,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7411BA221BFFB7A00366622 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7411BA321BFFBBE00366622 /* App.swift */,
+				A7411BA621BFFE1100366622 /* App+Decodable.swift */,
+				A7411BAB21C0005B00366622 /* AppStoreRessource.swift */,
+				A7411BB021C0024C00366622 /* DataFetching.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		A78E821A2177693E007C5FB5 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +120,9 @@
 			children = (
 				A78E823B2177693F007C5FB5 /* AppStoreViewerTests.swift */,
 				A78E823D2177693F007C5FB5 /* Info.plist */,
+				A7411BA021BFFA7D00366622 /* AppTest.swift */,
+				A7411BA921BFFF0A00366622 /* AppStoreRessourceTest.swift */,
+				A7411BAE21C0015900366622 /* MockFetcher.swift */,
 			);
 			path = AppStoreViewerTests;
 			sourceTree = "<group>";
@@ -108,6 +140,7 @@
 		A78E824721776A16007C5FB5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A7411BA221BFFB7A00366622 /* Model */,
 				A78E82262177693E007C5FB5 /* AppDelegate.swift */,
 				A78E82282177693E007C5FB5 /* ViewController.swift */,
 			);
@@ -223,8 +256,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7411BA421BFFBBE00366622 /* App.swift in Sources */,
+				A7411BAC21C0005B00366622 /* AppStoreRessource.swift in Sources */,
+				A7411BA721BFFE1100366622 /* App+Decodable.swift in Sources */,
 				A78E82292177693E007C5FB5 /* ViewController.swift in Sources */,
 				A78E82272177693E007C5FB5 /* AppDelegate.swift in Sources */,
+				A7411BB121C0024C00366622 /* DataFetching.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +269,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7411BAA21BFFF0A00366622 /* AppStoreRessourceTest.swift in Sources */,
+				A7411BA521BFFC6500366622 /* App.swift in Sources */,
+				A7411BA821BFFE1100366622 /* App+Decodable.swift in Sources */,
+				A7411BAD21C0005B00366622 /* AppStoreRessource.swift in Sources */,
+				A7411BAF21C0015900366622 /* MockFetcher.swift in Sources */,
 				A78E823C2177693F007C5FB5 /* AppStoreViewerTests.swift in Sources */,
+				A7411BA121BFFA7D00366622 /* AppTest.swift in Sources */,
+				A7411BB221C0024C00366622 /* DataFetching.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
